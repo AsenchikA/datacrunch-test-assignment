@@ -1,0 +1,33 @@
+.slider {
+  width: 178px;
+  height: 4px;
+}
+
+.sliderTrackBackground {
+  position: absolute;
+  height: 4px;
+  width: 162px;
+  background-color: var(--colorGrey300);
+  border-radius: 2px;
+}
+
+.sliderTrackFilled {
+  position: absolute;
+  height: 4px;
+  background-color: var(--colorPrimaryMain);
+  border-radius: 2px;
+}
+
+.sliderThumb {
+  top: 2px;
+  background-color: var(--colorPrimaryMain);
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--colorCommonWhite);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sliderThumb[data-hovered] {
+  box-shadow: 0px 0px 0px 7px rgba(75, 122, 138, 0.14);
+}

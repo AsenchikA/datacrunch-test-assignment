@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  width: 178px;
+}
+
+.input {
+  background-color: var(--colorCommonWhite);
+  padding: 8px 8px 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--colorGrey400);
+  color: var(--colorGrey600);
+  height: 32px;
+}
+
+.input[data-hovered] {
+  border: 1px solid var(--colorGrey500);
+}
+
+.input[data-focused] {
+  border-color: var(--colorPrimaryMain);
+  outline: 1px solid var(--colorPrimaryMain);
+}
+
+.input[data-disabled] {
+  background-color: var(--colorGrey50);
+  border: 1px solid var(--colorGrey400);
+  color: var(--colorGrey500);
+}

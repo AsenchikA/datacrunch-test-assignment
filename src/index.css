@@ -1,5 +1,29 @@
 body {
-  margin: 0;
   min-width: 320px;
   min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Sofia Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+:root {
+  --colorCommonWhite: #FFF;
+  --colorCommonBlack: #1A1A1A;
+
+  --colorPrimaryMain: #4B7A8A;
+  --colorPrimaryDark: #245866;
+  --colorPrimarySurface: #F5F9F9;
+
+  --colorGrey50: #FAFAFA;
+  --colorGrey100: #F5F5F5;
+  --colorGrey200: #EEE;
+  --colorGrey300: #DDD;
+  --colorGrey400: #B9B9B9;
+  --colorGrey500: #909090;
+  --colorGrey600: #707070;
+  --colorGrey800: #454545;
 }

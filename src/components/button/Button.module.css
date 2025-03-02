@@ -1,0 +1,129 @@
+.button {
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.smallButton {
+  padding: 4px 8px;
+}
+
+.mediumButton {
+  padding: 8px 16px;
+}
+
+.containedButton {
+  border: 0;
+}
+
+.outlinedButton {
+  border: 1px solid;
+}
+
+.primaryButton.containedButton {
+  background-color: var(--colorPrimaryMain);
+  color: var(--colorCommonWhite);
+}
+
+.primaryButton.outlinedButton {
+  background-color: var(--colorCommonWhite);
+  color: var(--colorPrimaryMain);
+}
+
+.secondaryButton.containedButton {
+  background-color: var(--colorGrey200);
+  color: var(--colorCommonBlack);
+}
+
+.secondaryButton.outlinedButton {
+  background-color: var(--colorCommonWhite);
+  border-color: var(--colorGrey400);
+  color: var(--colorCommonBlack);
+}
+
+.button[data-hovered],
+.button[data-pressed],
+.button[data-focused] {
+  outline: none;
+}
+
+.primaryButton.containedButton[data-hovered],
+.primaryButton.containedButton[data-pressed],
+.primaryButton.containedButton[data-focused] {
+  background-color: var(--colorPrimaryDark);
+}
+
+.primaryButton.outlinedButton[data-hovered],
+.primaryButton.outlinedButton[data-pressed],
+.primaryButton.outlinedButton[data-focused] {
+  background-color: var(--colorPrimarySurface);
+  border-color: var(--colorPrimaryDark);
+}
+
+.secondaryButton.containedButton[data-hovered],
+.secondaryButton.containedButton[data-pressed],
+.secondaryButton.containedButton[data-focused] {
+  background-color: var(--colorGrey300);
+}
+
+.secondaryButton.outlinedButton[data-hovered],
+.secondaryButton.outlinedButton[data-pressed],
+.secondaryButton.outlinedButton[data-focused] {
+  border-color: var(--colorGrey500);
+}
+
+.primaryButton.containedButton[data-disabled],
+.secondaryButton.containedButton[data-disabled] {
+  background-color: var(--colorGrey200);
+  color: var(--colorGrey500);
+}
+
+.primaryButton.outlinedButton[data-disabled],
+.secondaryButton.outlinedButton[data-disabled] {
+  border-color: var(--colorGrey300);
+  color: var(--colorGrey500);
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.iconButton.smallButton {
+  padding: 4px;
+  height: 24px;
+}
+
+.iconButton.mediumButton {
+  padding: 8px;
+  height: 32px;
+}
+
+.iconButtonLeft {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+
+.iconButtonRight {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  flex-direction: row-reverse;
+}
+
+
+.iconButton.smallButton.iconButtonLeft {
+  padding: 4px 8px 4px 4px;
+}
+
+.iconButton.smallButton.iconButtonRight {
+  padding: 4px 4px 4px 8px;
+}
+
+.iconButton.mediumButton.iconButtonLeft {
+  padding: 8px 16px 8px 12px;
+}
+
+.iconButton.mediumButton.iconButtonRight {
+  padding: 8px 12px 8px 16px;
+}
