@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.formContainer {
+  width: fit-content;
+  padding: 40px;
+  border: 1px solid var(--colorGrey300);
+  border-radius: 8px;
+}
+
+.resultsContainer {
+  padding: 40px;
+  border: 1px solid var(--colorGrey300);
+  border-radius: 8px;
+  width: 370px;
+}
+
+.resultsLabel {
+  margin-top: 0;
+}
+
+.nameContainer {
+  margin-bottom: 24px;
+}
+
+.sizeContainer {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 8px;
+  margin-bottom: 32px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+
+.footer button {
+  flex-grow: 1;
+}

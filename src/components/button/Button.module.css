@@ -71,6 +71,10 @@
   border-color: var(--colorGrey500);
 }
 
+.button[data-disabled] {
+  cursor: initial;
+}
+
 .primaryButton.containedButton[data-disabled],
 .secondaryButton.containedButton[data-disabled] {
   background-color: var(--colorGrey200);
@@ -101,12 +105,14 @@
 .iconButtonLeft {
   display: flex;
   align-items: center;
+  justify-content: center;
   column-gap: 4px;
 }
 
 .iconButtonRight {
   display: flex;
   align-items: center;
+  justify-content: center;
   column-gap: 4px;
   flex-direction: row-reverse;
 }

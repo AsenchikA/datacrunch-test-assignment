@@ -10,30 +10,32 @@ export const ComponentsPanel = () => {
   return (
     <div className={styles.container}>
       <div className={styles.componentsSection}>
-        <h2 className={styles.sectionLabel}>Input</h2>
+        <h3 className={styles.sectionLabel}>Input</h3>
         <div className={styles.componentsWrapper}>
           <Input label="Default" placeholder="enter text" />
           <Input label="Disabled" placeholder="enter text" isDisabled={true} />
         </div>
       </div>
 
-      <div className={styles.componentsSection}>
-        <h2 className={styles.sectionLabel}>Number Input</h2>
-        <div className={styles.componentsWrapper}>
-          <NumberInput label="Default" />
-          <NumberInput label="Disabled" isDisabled={true} />
+      <div className={styles.subContainer}>
+        <div className={styles.componentsSection}>
+          <h3 className={styles.sectionLabel}>Number Input</h3>
+          <div className={styles.componentsWrapper}>
+            <NumberInput label="Default" />
+            <NumberInput label="Disabled" isDisabled={true} />
+          </div>
+        </div>
+
+        <div className={styles.componentsSection}>
+          <h3 className={styles.sectionLabel}>Slider</h3>
+          <div className={styles.componentsWrapper}>
+            <Slider />
+          </div>
         </div>
       </div>
 
       <div className={styles.componentsSection}>
-        <h2 className={styles.sectionLabel}>Slider</h2>
-        <div className={styles.componentsWrapper}>
-          <Slider />
-        </div>
-      </div>
-
-      <div className={styles.componentsSection}>
-        <h2 className={styles.sectionLabel}>Buttons</h2>
+        <h3 className={styles.sectionLabel}>Buttons</h3>
         <div className={styles.buttonsWrapper}>
           <table className={styles.buttonsTable}>
             <thead>

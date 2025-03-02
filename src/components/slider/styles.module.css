@@ -1,6 +1,7 @@
 .slider {
   width: 178px;
-  height: 4px;
+  height: 26px;
+  padding: 8px;
 }
 
 .sliderTrackBackground {

@@ -28,3 +28,7 @@
   border: 1px solid var(--colorGrey400);
   color: var(--colorGrey500);
 }
+
+.error {
+  color: #ff0000;
+}

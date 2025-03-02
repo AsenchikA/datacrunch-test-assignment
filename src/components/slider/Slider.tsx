@@ -2,11 +2,11 @@ import { FC } from 'react';
 import { Slider as BaseSlider, SliderProps, SliderThumb, SliderTrack } from 'react-aria-components';
 import styles from './styles.module.css';
 
-type Props = Omit<SliderProps, 'className' | 'style'>;
+type Props = Omit<SliderProps<number>, 'className' | 'style'>;
 
 export const Slider: FC<Props> = (props) => {
   return (
-    <BaseSlider {...props} className={styles.slider}>
+    <BaseSlider aria-label="slider" {...props} className={styles.slider}>
       <SliderTrack>
         {({ state }) => (
           <>
