@@ -1,10 +1,13 @@
-import { Form } from 'react-aria-components';
-import { Input } from '../../components/input';
 import { FormEvent, useState } from 'react';
-import { NumberInput } from '../../components/number-input';
-import { Slider } from '../../components/slider';
-import { Button } from '../../components/button';
-import binIcon from '../../assets/icons/bin-icon.svg';
+import { Form } from 'react-aria-components';
+
+import binIcon from '@assets/icons/bin-icon.svg';
+
+import { Button } from '@components/button';
+import { Input } from '@components/input';
+import { NumberInput } from '@components/number-input';
+import { Slider } from '@components/slider';
+
 import styles from './UserForm.module.css';
 
 const MIN_VALUE = 0;

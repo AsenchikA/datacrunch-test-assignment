@@ -1,6 +1,7 @@
-import { FC } from 'react';
 import clsx from 'clsx';
+import { FC } from 'react';
 import { Button as BaseButton, ButtonProps } from 'react-aria-components';
+
 import styles from './Button.module.css';
 
 interface Props extends Omit<ButtonProps, 'className' | 'style'> {

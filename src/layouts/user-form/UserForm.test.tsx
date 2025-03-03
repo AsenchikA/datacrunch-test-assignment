@@ -1,6 +1,7 @@
-import { test, expect } from 'vitest';
 import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { test, expect } from 'vitest';
+
 import { UserForm } from './UserForm';
 
 test('UserForm: renders form by default', () => {

@@ -1,7 +1,9 @@
-import { test, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
+import { test, expect } from 'vitest';
+
+import icon from '@assets/icons/plus-icon-black.svg';
+
 import { Button } from './Button';
-import icon from '../../assets/icons/plus-icon-black.svg';
 import styles from './Button.module.css';
 
 test('Button: renders button by default', () => {

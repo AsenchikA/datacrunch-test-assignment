@@ -1,8 +1,11 @@
 import { FC } from 'react';
 import { Group, Input, Label, NumberField, NumberFieldProps } from 'react-aria-components';
+
+import minusIcon from '@assets/icons/minus-icon.svg';
+import plusIcon from '@assets/icons/plus-icon-black.svg';
+
 import { Button } from '../button';
-import plusIcon from '../../assets/icons/plus-icon-black.svg';
-import minusIcon from '../../assets/icons/minus-icon.svg';
+
 import styles from './NumberInput.module.css';
 
 interface Props extends Omit<NumberFieldProps, 'className' | 'style'> {

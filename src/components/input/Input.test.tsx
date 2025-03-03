@@ -1,5 +1,6 @@
-import { test, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
+import { test, expect } from 'vitest';
+
 import { Input } from './Input';
 
 test('Input: renders input by default', () => {

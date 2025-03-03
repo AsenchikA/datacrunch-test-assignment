@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import { Slider as BaseSlider, SliderProps, SliderThumb, SliderTrack } from 'react-aria-components';
+
 import styles from './styles.module.css';
 
 type Props = Omit<SliderProps<number>, 'className' | 'style'>;

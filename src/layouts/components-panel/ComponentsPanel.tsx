@@ -1,8 +1,9 @@
-import { Button } from '../../components/button/Button';
-import { NumberInput } from '../../components/number-input';
-import { Slider } from '../../components/slider';
-import { Input } from '../../components/input';
-import plusIcon from '../../assets/icons/plus-icon-white.svg';
+import plusIcon from '@assets/icons/plus-icon-white.svg';
+
+import { Button } from '@components/button/Button';
+import { Input } from '@components/input';
+import { NumberInput } from '@components/number-input';
+import { Slider } from '@components/slider';
 
 import styles from './ComponentsPanel.module.css';
 
