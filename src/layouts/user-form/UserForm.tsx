@@ -36,7 +36,9 @@ export const UserForm = () => {
 
         <div className={styles.sizeContainer}>
           <NumberInput label="Size (GB)" value={size} onChange={setSize} minValue={MIN_VALUE} maxValue={MAX_VALUE} />
-          <Slider value={size} onChange={setSize} minValue={MIN_VALUE} maxValue={MAX_VALUE} />
+          <div className={styles.sliderContainer}>
+            <Slider value={size} onChange={setSize} minValue={MIN_VALUE} maxValue={MAX_VALUE} />
+          </div>
         </div>
 
         <div className={styles.footer}>

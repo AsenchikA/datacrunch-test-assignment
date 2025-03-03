@@ -8,7 +8,7 @@ type Props = Omit<SliderProps<number>, 'className' | 'style'>;
 export const Slider: FC<Props> = (props) => {
   return (
     <BaseSlider aria-label="slider" {...props} className={styles.slider}>
-      <SliderTrack>
+      <SliderTrack className={styles.sliderTrack}>
         {({ state }) => (
           <>
             <div className={styles.sliderTrackBackground} />

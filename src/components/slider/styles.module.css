@@ -1,26 +1,31 @@
 .slider {
   width: 178px;
-  height: 26px;
-  padding: 8px;
+  padding: 0 8px;
+}
+
+.sliderTrack {
+  height: 24px;
 }
 
 .sliderTrackBackground {
   position: absolute;
+  top: calc(50% - 2px);
   height: 4px;
-  width: 162px;
+  width: 100%;
   background-color: var(--colorGrey300);
   border-radius: 2px;
 }
 
 .sliderTrackFilled {
   position: absolute;
+  top: calc(50% - 2px);
   height: 4px;
   background-color: var(--colorPrimaryMain);
   border-radius: 2px;
 }
 
 .sliderThumb {
-  top: 2px;
+  top: 50%;
   background-color: var(--colorPrimaryMain);
   width: 16px;
   height: 16px;

@@ -32,6 +32,11 @@
   margin-bottom: 32px;
 }
 
+.sliderContainer {
+  position: relative;
+  bottom: 3px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
